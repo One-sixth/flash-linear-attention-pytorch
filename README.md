@@ -9,7 +9,7 @@ Even though I wrote about implementing the CUDA operator, it is still relatively
 ~~如果你希望用于训练模型，你可能要修改为 CUDA 或 Triton 的实现，不然会很慢。~~  
 即便我改为CUDA算子实现，仍然比较慢，可能需要高级CUDA优化  
 
-# 更新
+# Update / 更新
 2023-10-19  
 Add support for MQA  
 Support Mask Gradient Calculation  
@@ -19,7 +19,7 @@ Updated to 5 writing methods
 更新为5种写法  
 
 
-# 5种写法的算子介绍
+# Introduction to 5 types of operators / 5种写法的算子介绍
 normal_linear_attention_ops.py  
 原始方式，显存占用最大，速度最快  
 可读性：最佳  
